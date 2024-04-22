@@ -9,7 +9,6 @@ class App extends Component {
     return (
       <div>
         <div className="App">
-          <p>Hello world</p>
           <Navbar/>
           <Routes>
             <Route path="/" element={<Signin/>}/>

@@ -1,0 +1,19 @@
+.navbar {
+    display: flex;
+    background-color: #3C5B6F;
+    padding: 8px;
+    text-align: right;
+    }
+    
+    .login{
+    color: #DFD0B8;
+    justify-content: end;
+    margin: 8px;
+    text-decoration: none;
+    }
+    .navbar-menu{
+    color: #DFD0B8;
+    justify-content: left;
+    margin: 8px;
+    text-decoration: none;
+    }

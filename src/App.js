@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from './component/Navbar';
 import Signin from './page/Signin';
-import Signup from './page/Signup';
 import { Route, Routes } from 'react-router-dom';
 
 class App extends Component {
@@ -9,13 +8,10 @@ class App extends Component {
     return (
       <div>
         <div className="App">
-          <Navbar/>
+
+          <Signin/>
           <Routes>
-            <Route path="/" element={<Signin/>}/>
-            <Route path="/" element={<Signin/>}/>
-            <Route path="/" element={<Signin/>}/>
-            <Route path="/" element={<Signin/>}/>
-            <Route path="/" element={<Signup/>}/>
+            <Route path="/Navbar" element={<Navbar/>}/>
           </Routes>
         </div>
       </div>

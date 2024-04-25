@@ -27,15 +27,15 @@ function Signin (){
                 </div>
             </section>
 
-            <script>
-                let id = $("#input-id");
-                let pw = $("#input-pw");
-                let btn = $("#input-btn");
+                <script>
+                    let id = $("#input-id");
+                    let pw = $("#input-pw");
+                    let btn = $("#input-btn");
 
-                $btn.on('click', function(){
+                    $btn.on('click', function(){
                     
-                })
-            </script>
+                    })
+                </script>
         </div>
     )
 }
